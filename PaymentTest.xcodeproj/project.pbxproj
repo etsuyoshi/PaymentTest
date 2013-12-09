@@ -21,6 +21,7 @@
 		34B2EAC11855C1BB00801F33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B2EAA31855C1BB00801F33 /* UIKit.framework */; };
 		34B2EAC91855C1BB00801F33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34B2EAC71855C1BB00801F33 /* InfoPlist.strings */; };
 		34B2EACB1855C1BB00801F33 /* PaymentTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B2EACA1855C1BB00801F33 /* PaymentTestTests.m */; };
+		34B2EAD51855D5F300801F33 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B2EAD41855D5F300801F33 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		34B2EAC61855C1BB00801F33 /* PaymentTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PaymentTestTests-Info.plist"; sourceTree = "<group>"; };
 		34B2EAC81855C1BB00801F33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		34B2EACA1855C1BB00801F33 /* PaymentTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentTestTests.m; sourceTree = "<group>"; };
+		34B2EAD41855D5F300801F33 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34B2EAD51855D5F300801F33 /* StoreKit.framework in Frameworks */,
 				34B2EAA21855C1BB00801F33 /* CoreGraphics.framework in Frameworks */,
 				34B2EAA41855C1BB00801F33 /* UIKit.framework in Frameworks */,
 				34B2EAA01855C1BB00801F33 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		34B2EA9E1855C1BB00801F33 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				34B2EAD41855D5F300801F33 /* StoreKit.framework */,
 				34B2EA9F1855C1BB00801F33 /* Foundation.framework */,
 				34B2EAA11855C1BB00801F33 /* CoreGraphics.framework */,
 				34B2EAA31855C1BB00801F33 /* UIKit.framework */,
